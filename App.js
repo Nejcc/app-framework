@@ -3,6 +3,7 @@ import {StyleSheet, Text, View} from 'react-native';
 import {NavigationContainer} from "@react-navigation/native";
 import TabNavigation from "./App/Navigations/TabNavigation";
 import {useFonts} from 'expo-font';
+import Colors from "./App/Shared/Colors";
 
 export default function App() {
 
@@ -23,7 +24,7 @@ export default function App() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: Colors.DARKER_GRAY,
         // padding: 20,
     },
 });

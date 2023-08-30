@@ -2,6 +2,7 @@ import {View, Text, StyleSheet} from 'react-native'
 import React from 'react'
 import Header from "../Components/Home/Header";
 import CategoryList from "../Components/Home/CategoryList";
+import Colors from "../Shared/Colors";
 // import GoogleMapView from "../Components/Home/GoogleMapView";
 
 export default function Home(){
