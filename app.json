@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9ca2b3ca-0291-45c5-ae02-08e5fd5d0165"
+      }
+    },
+    "owner": "nejcc"
   }
 }
